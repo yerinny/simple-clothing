@@ -5,7 +5,7 @@ import './menu-item.styles.scss';
 
 //withRouter prevents props drilling within componets, lets the props pass down from parents without from going component to component down
 // now what with router is is it's a higher order component and a higher order component is essentially
-// So it's kind of like a function that gives you back a powered up component.
+//our higher order component is just a function that takes another component as an argument transforms it into another component and returnsthat transformed component 
 
 
 //match the url and link the url
