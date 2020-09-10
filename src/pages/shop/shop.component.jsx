@@ -13,7 +13,7 @@ class ShopPage extends React.Component {
     }
 
 render(){
-    //destructure
+    //destructure so you don't have to do this.state.collections
     const {collections} = this.state;
     return (<div className='shop-page'>
         {
